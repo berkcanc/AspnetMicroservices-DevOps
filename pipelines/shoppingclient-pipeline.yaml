@@ -23,6 +23,7 @@ variables:
   dockerfilePath: 'Shopping/Shopping.Client/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'shoppingacrtest1215a860-auth'
+  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
   
