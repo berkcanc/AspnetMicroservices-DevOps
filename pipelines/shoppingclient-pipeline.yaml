@@ -19,7 +19,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '03c14983-134e-4950-b6d2-0ecc6492571d'
   imageRepository: 'shoppingclient'
-  containerRegistry: 'shoppingacr.azurecr.io'
+  containerRegistry: 'shoppingacrtest.azurecr.io'
   dockerfilePath: 'Shopping/Shopping.Client/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'shoppingacrtest1215a860-auth'
